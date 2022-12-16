@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vendor List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="~/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron" style="text-align: center;">
+    @using Bakery.Models;
+    
+    <h1>Orders List</h1>
+      </div>
+
+    <div class="form">
+      <ul>
+      @foreach (Order order in @Model["orders"])
+      {
+        <div class="listItem">
+          <p>@order.Item</p>
+            <li style="margin-left:2em">@order.Amount</li><br>
+            <li style="margin-left:2em">@order.Price</li><br>
+            <li style="margin-left:2em">@order.Date</li><br>
+        </div>
+      }
+      </ul>
+      <a href='/vendors/@Model["vendor"].Id/orders/new'>
+        <button class="btn btn-success">Add Orders</button>
+      <a href='/vendors'>
+        <button class="btn btn-primary">Vendor List</button>
+      </a>
+      <a href="/">
+        <button class="btn btn-secondary">Home</button>
+      </a>
+      </div>
+    </div>
+  </body>
+</html>
