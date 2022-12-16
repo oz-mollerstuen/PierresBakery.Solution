@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9fweILu4DbXF9xVJgPhUwWvxFd2GImBIeLwmTU1o08C+1MZAun4+uv4eMLVNwSG11OK6dHXZZYjfdGxdSP92Ag==",
+  "dgSpecHash": "tClip+vPdRNPJUSIo1LgDmdjWZQLNK7Dto3Z6xNdOrhElptOop79JRmM/3SZj9BZINPYecjaB/NKNLcm24S19Q==",
   "success": true,
-  "projectFilePath": "/Users/admin/Desktop/Pierres-Bakery.Solution/PierresBakery/PierresBakery.csproj",
+  "projectFilePath": "/Users/admin/Desktop/Pierres-Bakery.Solution/Bakery/Bakery.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
