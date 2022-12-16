@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 namespace Bakery.Controllers
 {
 
-  public class HomeController : Controller
+  public static class HomeController : Controller
   {
 
     [HttpGet("/")]
-    public ActionResult Index()
+    public ActionResult Index
     {
       return View();
     }
