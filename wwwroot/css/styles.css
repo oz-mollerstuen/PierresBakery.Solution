@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  color: rgb(222, 108, 8);
+  color: rgb(158, 36, 234);
   font-weight: bold;
   background-color:  rgb(14, 5, 5);
   padding-top: 20px;
@@ -26,7 +26,7 @@ h1 {
   margin-top: 10px;
   margin-bottom: 10px;
   
-  background-color: tan;
+  background-color: rgb(225, 14, 245);
 }
 
 .form {
@@ -46,7 +46,7 @@ h1 {
 button {
   margin-top: 10px;
   margin-bottom: 25px;
-  box-shadow: rgb(211, 106, 0) 4px 4px;
+  box-shadow: rgb(0, 213, 167) 4px 4px;
 }
 
 a{
