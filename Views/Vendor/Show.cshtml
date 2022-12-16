@@ -15,6 +15,7 @@
       </div>
 
     <div class="form">
+      <div class="jumbotron">
       <ul>
       @foreach (Order order in @Model["orders"])
       {
@@ -26,13 +27,14 @@
         </div>
       }
       </ul>
+      </div>
       <a href='/vendors/@Model["vendor"].Id/orders/new'>
-        <button class="btn btn-success">Add Orders</button>
+        <button class="btn btn-success">🥐 Add Orders 🍞</button>
       <a href='/vendors'>
         <button class="btn btn-primary">Vendor List</button>
       </a>
       <a href="/">
-        <button class="btn btn-secondary">Home</button>
+        <button class="btn btn-secondary">Home 🏠</button>
       </a>
       </div>
     </div>
