@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "4E3StZ677hMHn+HJAeP29ml2ElBqCKjJjVzLQGiKrtM=",
+  "Source": "PierresBakery",
+  "BasePath": "_content/PierresBakery",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PierresBakery/wwwroot",
+      "Source": "PierresBakery",
+      "ContentRoot": "/Users/admin/Desktop/Pierres-Bakery.Solution/PierresBakery/wwwroot/",
+      "BasePath": "_content/PierresBakery",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/admin/Desktop/Pierres-Bakery.Solution/PierresBakery/wwwroot/css/styles.css",
+      "SourceId": "PierresBakery",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/admin/Desktop/Pierres-Bakery.Solution/PierresBakery/wwwroot/",
+      "BasePath": "_content/PierresBakery",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    }
+  ]
+}

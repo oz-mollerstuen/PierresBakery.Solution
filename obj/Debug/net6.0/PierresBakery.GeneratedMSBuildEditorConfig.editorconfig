@@ -1,0 +1,24 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PierresBakery
+build_property.RootNamespace = PierresBakery
+build_property.ProjectDir = /Users/admin/Desktop/Pierres-Bakery.Solution/PierresBakery/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/admin/Desktop/Pierres-Bakery.Solution/PierresBakery
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/admin/Desktop/Pierres-Bakery.Solution/PierresBakery/Views/ControllerName/RouteMethodName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udHJvbGxlck5hbWUvUm91dGVNZXRob2ROYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/admin/Desktop/Pierres-Bakery.Solution/PierresBakery/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
