@@ -8,29 +8,29 @@ body {
 }
 
 h1 {
-  color: tan;
+  color: rgb(222, 108, 8);
   font-weight: bold;
   background-color:  rgb(14, 5, 5);
   padding-top: 20px;
   padding-bottom: 20px;
-  text-shadow: 2px 2px white;
+  
 }
 
 .listItem {
-  border: solid black 2px;
+  border: solid black 4px;
   border-radius: 5px;
   text-align: center;
   margin-left: 30%;
   margin-right: 30%;
   margin-top: 10px;
   margin-bottom: 10px;
-  box-shadow: 5px 5px grey;
+  
   background-color: tan;
 }
 
 .form {
-  background-color: white;
-  border: solid black 4px;
+  background-color: rgb(101, 85, 85);
+  border: solid black 6px;
   border-radius: 8px;
   margin-top: 100px;
   margin-left: 30%;
@@ -45,7 +45,7 @@ h1 {
 button {
   margin-top: 10px;
   margin-bottom: 25px;
-  box-shadow: grey 2px 2px;
+  box-shadow: rgb(211, 106, 0) 4px 4px;
 }
 
 a{
