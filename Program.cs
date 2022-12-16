@@ -1,21 +1,28 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
 
-using System.IO;
-using Microsoft.AspNetCore.Hosting;
-
-namespace Bakery
+namespace ToDoList
 {
-  public class Program
+  class Program
   {
-    public static void Main(string[] args)
+    static void Main(string[] args)
     {
-      var host = new WebHostBuilder()
-        .UseKestrel()
-        .UseContentRoot(Directory.GetCurrentDirectory())
-        .UseIISIntegration()
-        .UseStartup<Startup>()
-        .Build();
+      WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
-      host.Run();
+      builder.Services.AddControllersWithViews();
+
+      WebApplication app = builder.Build();
+
+      app.UseHttpsRedirection();
+      app.UseStaticFiles();
+      app.UseRouting();
+
+      app.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}"
+      );
+
+      app.Run();
     }
   }
 }
