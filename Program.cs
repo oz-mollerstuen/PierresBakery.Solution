@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace PierresBakery // Change project name!
+namespace Bakery 
 {
   class Program
   {
