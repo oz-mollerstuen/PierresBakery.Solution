@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Dsl5QSHyMIpiZelQtztouc6Z0AgRGxRauqwkI3GPT1c=",
+  "Hash": "e6D8a5FqTsxXwVMjeVWuEe2U4JoiTrtDUW+dzQ/GkkY=",
   "Source": "Bakery",
   "BasePath": "_content/Bakery",
   "Mode": "Default",
@@ -49,40 +49,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/.DS_Store"
-    },
-    {
-      "Identity": "/Users/admin/Desktop/Pierres-Bakery.Solution/Bakery/wwwroot/css/imgs/.DS_Store",
-      "SourceId": "Bakery",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/Pierres-Bakery.Solution/Bakery/wwwroot/",
-      "BasePath": "_content/Bakery",
-      "RelativePath": "css/imgs/.DS_Store",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/imgs/.DS_Store"
-    },
-    {
-      "Identity": "/Users/admin/Desktop/Pierres-Bakery.Solution/Bakery/wwwroot/css/imgs/bakernaut.png",
-      "SourceId": "Bakery",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/Pierres-Bakery.Solution/Bakery/wwwroot/",
-      "BasePath": "_content/Bakery",
-      "RelativePath": "css/imgs/bakernaut.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/imgs/bakernaut.png"
     },
     {
       "Identity": "/Users/admin/Desktop/Pierres-Bakery.Solution/Bakery/wwwroot/css/styles.css",
